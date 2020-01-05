@@ -1,6 +1,11 @@
 # Laravelha POC
 Proof of concept to preset-api and generator --api commands
 
+## Screenshots
+
+![Categories](/public/images/laravelha-poc-api.jpeg)
+![News/Articles](/public/images/laravelha-poc-api-package.jpeg)
+
 ## How to reproduce?
 1. install laravel fresh app
 ```shell script
