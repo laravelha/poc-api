@@ -1,0 +1,40 @@
+{
+    "name": "laravelha/news",
+    "description": "Laravelha News",
+    "keywords": ["Laravelha", "Laravel", "News"],
+    "require": {
+        "php": "^7.2",
+        "illuminate/support": "^6.0",
+        "laravelha/support": "^1.0.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^4.0",
+        "phpunit/phpunit": "^8.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Laravelha\\News\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Laravelha\\News\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Laravelha\\News\\Providers\\NewsServiceProvider",
+                "Laravelha\\News\\Providers\\RouteServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "gitlab",
+            "url": "https://gitlab.com/ha-generator/support"
+        }
+    ]
+}
