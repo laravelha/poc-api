@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a2939ef670b0981d4f32894fbf86d87d",
+    "content-hash": "59aa50c4b14f41bd307ff58cfcdc7985",
     "packages": [
         {
             "name": "darkaonline/l5-swagger",
@@ -3780,6 +3780,53 @@
                 "test"
             ],
             "time": "2016-01-20T08:20:44+00:00"
+        },
+        {
+            "name": "laravelha/generator",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravelha/generator.git",
+                "reference": "215b68a910c0df066fe3e0660da62ef5cede15e0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravelha/generator/zipball/215b68a910c0df066fe3e0660da62ef5cede15e0",
+                "reference": "215b68a910c0df066fe3e0660da62ef5cede15e0",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/console": "^6.0",
+                "illuminate/filesystem": "^6.0",
+                "illuminate/support": "^6.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Laravelha\\Generator\\GeneratorServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Laravelha\\Generator\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Pedro Augusto",
+                    "email": "pedro.e@ufv.br"
+                }
+            ],
+            "description": "Laravelha Generator",
+            "keywords": [
+                "generator",
+                "laravel",
+                "rad"
+            ],
+            "time": "2020-01-05T03:24:54+00:00"
         },
         {
             "name": "laravelha/preset-api",
