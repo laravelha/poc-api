@@ -35,7 +35,8 @@
     },
     "autoload": {
         "psr-4": {
-            "App\\": "app/"
+            "App\\": "app/",
+            "Laravelha\\News\\": "packages/news/"
         },
         "classmap": [
             "database/seeds",
